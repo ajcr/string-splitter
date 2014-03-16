@@ -44,6 +44,3 @@ def splitter(string):
             output(output_list)
             return
         sequences = temp_list
-
-        
-
