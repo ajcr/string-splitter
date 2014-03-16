@@ -1,6 +1,3 @@
-# Alexander Riley, February 2014
-# Split a string into component English words
-
 import re
 
 input_file = r"C:\word-list.txt"
