@@ -1,14 +1,5 @@
 import re
-
-input_file = r"C:\word-list.txt"
-
-words = {}
-
-with open(input_file, 'r') as f:
-    for line in f:
-        line = re.sub(r"\W", "", line)
-        line = line.lower()
-        words[line] = None
+import os
 
 def output(output_list):
     if len(output_list) == 0:
@@ -36,6 +27,8 @@ def splitter(string):
     string = re.sub(r"[^a-z]", "", string.lower())
     sequences = [[string]]
     output_list = []
+    if string in words:
+        output_list.append([string])
     while True:
         temp_list = []
         for seq in sequences:
@@ -44,3 +37,9 @@ def splitter(string):
             output(output_list)
             return
         sequences = temp_list
+
+if __name__ == "__main__":
+    current_dir = os.getcwd()
+    input_file = current_dir + r"\brit-a-z.txt"
+    with open(input_file, 'r') as f:
+        words = {re.sub(r"[^a-z]", "", line.lower()) for line in f}
