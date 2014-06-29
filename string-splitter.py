@@ -40,6 +40,6 @@ def splitter(string):
 
 if __name__ == "__main__":
     current_dir = os.getcwd()
-    input_file = current_dir + r"\brit-a-z.txt"
-    with open(input_file, 'r') as f:
+    input_file = current_dir + r"\word-list.txt"
+    with open(input_file, "r") as f:
         words = {re.sub(r"[^a-z]", "", line.lower()) for line in f}
