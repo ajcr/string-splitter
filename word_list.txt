@@ -3581,7 +3581,7 @@ applied
 applier
 appliers
 applies
-appliqué
+appliquÃ©
 apply
 applying
 appoint
@@ -13350,8 +13350,8 @@ cleverly
 cleverness
 clevis
 clianthus
-cliché
-clichés
+clichÃ©
+clichÃ©s
 click
 clicked
 clicker
@@ -14589,8 +14589,8 @@ communicator's
 communicatory
 communing
 communion
-communiqué
-communiqués
+communiquÃ©
+communiquÃ©s
 communisation
 communisations
 communisation's
@@ -17466,8 +17466,8 @@ creature
 creaturely
 creatures
 creature's
-crèche
-crèches
+crÃ¨che
+crÃ¨ches
 credence
 credendum
 credent
@@ -19195,7 +19195,7 @@ decollates
 decollating
 decollation
 decollations
-décolletage
+dÃ©colletage
 decolonisation
 decolonise
 decolonised
@@ -19678,7 +19678,7 @@ deistically
 deities
 deity
 deity's
-déjà
+dÃ©jÃ 
 deject
 dejected
 dejectedly
@@ -20794,7 +20794,7 @@ detainee
 detaining
 detainment
 detains
-d'état
+d'Ã©tat
 detect
 detectable
 detectably
@@ -20908,7 +20908,7 @@ detrained
 detraining
 detrainment
 detrains
-d'être
+d'Ãªtre
 detribalisation
 detribalise
 detribalised
@@ -25217,7 +25217,7 @@ emigrated
 emigrates
 emigrating
 emigration
-émigré
+Ã©migrÃ©
 eminence
 eminency
 eminent
@@ -29094,8 +29094,8 @@ feyness
 fez
 fezzes
 fiacre
-fiancé
-fiancée
+fiancÃ©
+fiancÃ©e
 fiasco
 fiat
 fiats
@@ -41680,7 +41680,7 @@ japes
 japing
 japonica
 jar
-jardinière
+jardiniÃ¨re
 jarful
 jargon
 jargonise
@@ -45286,7 +45286,7 @@ mackerel
 mackerels
 mackinaw
 mackintosh
-macramé
+macramÃ©
 macro
 macrobiotic
 macrobiotics
@@ -45801,7 +45801,7 @@ manorial
 manors
 manor's
 manpower
-manqué
+manquÃ©
 manrope
 manropes
 mans
@@ -48085,7 +48085,7 @@ moieties
 moiety
 moil
 moiling
-moiré
+moirÃ©
 moist
 moisten
 moistened
@@ -52887,7 +52887,7 @@ passant
 passbook
 passbooks
 passbook's
-passé
+passÃ©
 passed
 passenger
 passengers
@@ -56056,7 +56056,7 @@ precipitator
 precipitin
 precipitous
 precipitously
-précis
+prÃ©cis
 precise
 precisely
 preciseness
@@ -59315,7 +59315,7 @@ recheck
 rechecked
 rechecking
 rechecks
-recherché
+recherchÃ©
 recidivism
 recidivist
 recidivistic
@@ -67000,7 +67000,7 @@ sot
 sotto
 soubrette
 soubriquet
-soufflé
+soufflÃ©
 sough
 sought
 soul
