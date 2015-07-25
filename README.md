@@ -10,8 +10,8 @@ Run the script to read in a set of words and then pass a string to the `splitter
  'dog sand cats and rats',
  'dogs and cat sand rats',
  'dogs and cats and rats']
- >>> splitter('trytosplitxyziasfja')
- []
+>>> splitter('trytosplitxyziasfja')
+[]
 ```
 
 The list of English words here, `word-list.txt`, is taken from http://www.curlewcommunications.co.uk/wordlist.html
