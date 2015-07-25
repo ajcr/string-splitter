@@ -1,9 +1,12 @@
-#!/usr/bin/env
+"""
+Split a string back into recognised words.
+
+"""
 
 def cut_last_word(seq, output_list):
     last_word = seq[-1]
     pos = []
-    for index in xrange(1, len(last_word)):
+    for index in range(1, len(last_word)):
         left_word = last_word[:index]
         if left_word in words:
             right_word = last_word[index:]
@@ -13,7 +16,7 @@ def cut_last_word(seq, output_list):
             pos.append(new_seq)
     return pos
 
-def splitter(string, max_lines=None):
+def splitter(string):
     output_list = []
     sequences = [[string]]
     if string in words:
@@ -22,13 +25,10 @@ def splitter(string, max_lines=None):
         temp_list = []
         for seq in sequences:
             temp_list.extend(cut_last_word(seq, output_list))
-        if len(temp_list) == 0:
+        if not temp_list:
             break
         sequences = temp_list
-    if output_list:
-        return "\n".join([" ".join(x) for x in output_list[:max_lines]])
-    else:
-        return "-"
+    return [" ".join(x) for x in output_list]
 
 if __name__ == "__main__":
     input_file = r"word_list.txt"
