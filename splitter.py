@@ -1,5 +1,8 @@
 """
-Split a string back into recognised words.
+Split up a string of contiguous words.
+
+Call the splitter() function on the string you want 
+to break up - a list of possible splits is returned.
 
 """
 
