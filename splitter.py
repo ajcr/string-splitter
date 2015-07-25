@@ -34,6 +34,6 @@ def splitter(string):
     return [" ".join(x) for x in output_list]
 
 if __name__ == "__main__":
-    input_file = r"word_list.txt"
+    input_file = "word_list.txt"
     with open(input_file, "r") as f:
         words = {line.rstrip() for line in f}
