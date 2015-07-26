@@ -23,7 +23,7 @@ def splitter(string):
     output_list = []
     sequences = [[string]]
     if string in words:
-        output_list.append(sequences)
+        output_list.append([string])
     while True:
         temp_list = []
         for seq in sequences:
