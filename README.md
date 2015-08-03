@@ -14,4 +14,4 @@ Run the script to read in a set of words and then pass a string to the `splitter
 []
 ```
 
-The list of English words here, `word-list.txt`, is taken from http://www.curlewcommunications.co.uk/wordlist.html
+The list of English words here, `word-list.txt`, is taken from [Curlew Communications](http://www.curlewcommunications.co.uk/wordlist.html). You can, of course, use *any* list of words in whatever language you like.
