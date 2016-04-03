@@ -1,7 +1,7 @@
 """
 Split up a string of contiguous words.
 
-Call the splitter() function on the string you want 
+Call the splitter() function on the string you want
 to break up - a list of possible splits is returned.
 
 """
@@ -33,7 +33,8 @@ def splitter(string):
         sequences = temp_list
     return [" ".join(x) for x in output_list]
 
-if __name__ == "__main__":
-    input_file = "word_list.txt"
-    with open(input_file, "r") as f:
-        words = {line.rstrip() for line in f}
+
+
+input_file = "word_list.txt"
+with open(input_file, "r") as f:
+    words = {line.rstrip() for line in f}
