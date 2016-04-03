@@ -3,6 +3,7 @@ A neat function to split up a string of contiguous words. Very handy for [breaki
 Run the script to read in a set of words and then pass a string to the `splitter()` function. The function will return a list of the possible ways the string can be broken into English words (or whatever words are found in the `word-list.txt` file). If a string can't be split cleanly an empty list is returned.
 
 ```python
+>>> from splitter import splitter
 >>> splitter('splitthisstring')
 ['split this string']
 >>> splitter('dogsandcatsandrats')
