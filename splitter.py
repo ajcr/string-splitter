@@ -1,12 +1,10 @@
 """
-Split up a string of contiguous words.
-
-Call the splitter() function on the string you want
-to break up - a list of possible splits is returned.
+Function to split a string of contiguous words
+into a sequence of known words.
 
 """
 
-def cut_last_word(seq, output_list):
+def _cut_last_word(seq, output_list):
     last_word = seq[-1]
     pos = []
     for index in range(1, len(last_word)):
@@ -27,14 +25,15 @@ def splitter(string):
     while True:
         temp_list = []
         for seq in sequences:
-            temp_list.extend(cut_last_word(seq, output_list))
+            temp_list.extend(_cut_last_word(seq, output_list))
         if not temp_list:
+            # no new possibilities for splits
             break
         sequences = temp_list
-    return [" ".join(x) for x in output_list]
+    return [' '.join(x) for x in output_list]
 
 
+word_input_file = 'word_list.txt'
 
-input_file = "word_list.txt"
-with open(input_file, "r") as f:
+with open(input_file, 'r') as f:
     words = {line.rstrip() for line in f}
